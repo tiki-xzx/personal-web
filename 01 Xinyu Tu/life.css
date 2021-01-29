@@ -1,0 +1,133 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #8EAD90;
+  background-color: #fff;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+.mb-auto{
+  font-size: 1rem;
+  font-family: Cambria, Times, Sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40rem;
+}
+
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  background: url(./image/photography-01-16-9.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.parent {
+  position: absolute;
+  left: 18%;
+  top: 25%;
+}
+
+.featurette-heading{
+ font-family: Cambria, Times, Sans-serif; 
+ font-style: italic;
+ color: #593407;
+}
+
+.content{
+color: #a16c2d;
+}
+
+
+.lead{
+  text-align: right;
+  font-size: 1rem;
+}
+
+.col-md-7{
+  margin-top: auto;
+  margin-bottom: auto;
+  max-height: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40rem;
+}
+ 
+/*.cover-container {
+  max-width: 42em;
+}*/
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: #a16c2d;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.col-md-5{
+  width: 450px;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+  right: 4%;
+}
+
+.mt-auto{
+  color: #593407;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  opacity: 0.7;
+  font-size: 0.8rem;
+ /* padding: 1px;*/
+}
+
+.col-lg-4{
+  background-color: rgba(142,173,144,0.6);
+}
+
+img{
+border-radius: 50%;
+width: 140px;
+height:140px;
+}
+
+/*img.resize{
+  width:140px;*/
+  /*height:140px;*/
+/*}*/

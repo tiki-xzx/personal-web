@@ -1,0 +1,357 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #8EAD90;
+  background-color: #fff;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+.mb-auto{
+  font-size: 1rem;
+  font-family: Cambria, Times, Sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40rem;
+}
+
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  background: url(./image/works/shuiquan/IMG_8288.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+.parent {
+  position: absolute;
+  left: 18%;
+  top: 25%;
+}
+
+.featurette-heading{
+ font-family: Cambria, Times, Sans-serif; 
+ font-style: italic;
+ color: #593407;
+}
+
+.content{
+color:#593407;
+width: 80%;
+margin:auto;
+text-align: left;
+}
+
+#intro {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center; /*垂直居中*/
+  justify-content: center; /*水平居中*/
+}
+
+#introImg {
+  vertical-align: middle;
+  align-items: center;
+}
+
+/*#content-2 {
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}*/
+
+#content-3 {
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.myImg {
+  margin-top: 20px;
+  cursor: zoom-in;
+  animation: fadeIn ease 5s;
+-webkit-animation: fadeIn ease 5s;
+-moz-animation: fadeIn ease 5s;
+-o-animation: fadeIn ease 5s;
+-ms-animation: fadeIn ease 5s;
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+.drawing {
+  margin-top: 20px;
+}
+
+.lead{
+  text-align: right;
+  font-size: 1rem;
+}
+
+.col-md-7{
+  margin-top: auto;
+  margin-bottom: auto;
+  max-height: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40rem;
+}
+
+.px-3 {
+  overflow: auto;
+} 
+
+.cover-container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.column-2 {
+  float:left;
+  width:25%;
+  padding: 10px;
+}
+
+.first{
+      float: left;
+      width: 22.5%;
+   }
+
+.second, .third {
+      float: left;
+      width: 26.5%;
+}
+
+.fourth {
+  float: left;
+      width: 24.5%;
+}
+
+   .second {
+    padding-right: 10px;
+   }
+
+   .third {
+    padding-left: 10px;
+   }
+
+   .container:after {
+      clear: both;
+   }
+
+   .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color:#593407;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.col-md-5{
+  width: 450px;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+  right: 4%;
+}
+
+.mt-auto{
+  color: #593407;
+}
+
+.title {
+  font-family: Cambria, Times, Sans-serif; 
+  font-style: bold;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  color: #a16c2d;
+  width:80%;
+  margin: auto;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*垂直居中*/
+  justify-content: center; /*水平居中*/
+  padding: 10px;
+}
+
+
+
+.left {
+  width: 60%;
+  text-align: left;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.right {
+  width: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*/
+.col-lg-4{
+  background-color: rgba(142,173,144,0.6);
+}
+
+.row > .column {
+  /*padding: 0 8px;*/
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.back-button{
+  float:right;
+}
+.back {
+ color:#593407;
+}
+
+/*.myImg:hover {opacity: 0.7;}*/
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 40px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  height:90vh;
+  width: auto;
+  border: 0;
+  border-radius: 0;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.caption {
+  color: #593407;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  color: #f1f1f1;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
