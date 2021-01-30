@@ -314,7 +314,7 @@ transform: translateY(-50%);
   width: 100%;
   height: auto;
 }
-.column,.column-2 {
+.column,.column-2,.column-3 {
   width: 100%!important;
   height: auto;
 }
