@@ -19,9 +19,9 @@
 .mb-auto{
   font-size: 1rem;
   font-family: Cambria, Times, Sans-serif;
-  margin-left: auto;
+/*  margin-left: auto;
   margin-right: auto;
-  width: 40rem;
+  width: 40rem;*/
 }
 
 body {
@@ -45,6 +45,7 @@ body {
  color: #a16c2d;
  text-align: left;
 }
+
 
 hr {
   display: block;
