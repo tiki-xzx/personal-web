@@ -311,6 +311,10 @@ transform: translateY(-50%);
 .mb-auto {
   width: 100%;
 }
+.myImg {
+  width: 100%;
+  height: auto;
+}
 .column {
   width: 100%!important;
   height: auto;
